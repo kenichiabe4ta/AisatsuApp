@@ -32,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("test","設定時刻="+hourOfDay+":"+minute);
                     }
                 },
-                chour, // 初期値（時間）
-                cminute,  // 初期値（分）
+                chour,      // TimePickerDialogを表示した時間を初期値にセット
+                cminute,
                 true);
         timePickerDialog.show();
     }
@@ -56,5 +56,4 @@ public class MainActivity extends AppCompatActivity {
             Log.d("test",Message);
         }
     }
-
 }

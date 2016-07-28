@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="DisplayTime"
-        android:text="時刻設定表示" />
+        android:text="あいさつ表示" />
 
     <TextView
         android:id="@+id/textView"
