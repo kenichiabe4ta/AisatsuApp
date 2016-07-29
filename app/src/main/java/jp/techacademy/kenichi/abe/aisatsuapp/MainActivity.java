@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
             Message="おはよう";
         }else if( (h>=10)&&(h<=17) ){
             Message="こんにちは";
-        }else if( (h>=18)&&(h<=23) || (h>=0)&&(h<=1) ){
+        }else {
             Message="こんばんは";
         }
         return Message;
     }
 
-    public void DisplayTime(View v){
+    public void DisplayMessage(View v){
         if(Message != "" ){
             mTextView.setText(Message);
             Log.d("test",Message);
